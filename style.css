@@ -1,0 +1,214 @@
+body {
+    background: #f9e933;
+
+    font-family: 'Droid Sans', sans-serif;
+
+  }
+  
+  header, main, footer {
+
+    min-width: 855px;
+
+  }
+  
+  header .container, main .container, footer .container {
+
+    max-width: 700px;
+
+    margin: auto;
+
+  }
+  
+  header {
+    padding: 25px 0 25px 0;
+
+    background: white;
+
+    overflow: auto;
+
+    border-bottom: 1px solid rgb(133, 9, 9);
+
+  }
+  
+
+  h1 {
+    font-family: Times, "Times New Roman", Georgia, serif;
+
+    font-style: italic;
+
+    font-size: 3em;
+
+    color: rgb(51, 187, 58);
+
+    float: left;
+
+    width: 570px;
+
+
+  }
+  
+
+  h5 {
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+
+      font-size: 1.25em;
+
+      margin-bottom: 20px;
+
+  }
+  
+  header nav {
+
+    float: right;
+
+    width: 285px;
+
+  }
+  
+  a {
+
+    color: rgb(197, 50, 168);
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+  }
+  
+  main {
+      background: rgb(146, 207, 33);
+
+      border-radius: 0 5px 5px 5px;;
+
+      padding: 40px;
+
+  }
+  
+  .tabs a span {
+
+      border-radius: 5px 5px 0 0;
+
+      display: inline-block;
+
+      width: 100px;
+
+      margin-right: 10px;
+
+      text-align: center;
+
+      background: rgb(171, 25, 147);
+
+      padding: 5px;
+  }
+  
+  .tabs a .active {
+
+      background: rgb(19, 11, 126);
+
+  }
+  
+  main .content {
+      padding: 30px 10px 30px 10px;
+
+      border-radius: 0 5px 5px 5px;
+
+      background: rgb(150, 23, 23);
+
+  }
+  
+  main .content li {
+
+      border-radius: 5px;
+
+      padding: 3px;
+
+      background: rgb(112, 205, 205);
+
+      margin: 0 0 10px 0;
+
+  }
+  
+  main .content button {
+
+    font-weight: bold;
+
+    padding: 0 3px 0 3px;
+
+    border-radius: 5px;
+
+    background: rgb(207, 198, 16);
+
+    cursor: pointer;
+
+    margin-left: 5px;
+
+    font-size: 1.3em;
+
+  }
+  
+  
+  main .content p {
+
+      background: rgb(216, 22, 171);
+
+  }
+  
+  main .content input {
+
+      font-size: 1.5em;
+
+  }
+  
+  footer {
+      border-top: 1px solid #ddd;
+
+      padding: 40px 0 20px 0;
+
+  }
+  
+  footer .contact {
+
+    float: left;
+
+    width: 570px;    
+
+  }
+  
+  footer .contact p:nth-child(2) {
+
+    color: rgb(15, 15, 15);
+
+    font-style: italic;
+
+  }
+  
+  footer .sitemap {
+
+      float: right;
+
+      width: 285px;
+
+  }
+  
+  footer ul {
+
+      width: 230px;
+
+  }
+  
+  li {
+
+      list-style: none;
+  }
+  
+  footer .sitemap .left {
+
+      float: left;
+
+  }
+  
+  footer .sitemap .right {
+
+      float: right;
+
+  }
